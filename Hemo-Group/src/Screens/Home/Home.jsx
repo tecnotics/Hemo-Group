@@ -11,21 +11,24 @@ function Home() {
         <section className="quienes-somos-section">
           <div className="quienes-somos-content">
             <Typography variant="h4">
-              <b>¿Quiénes Somos? </b>
+              <b>Misíon </b>
             </Typography>
             <p>
-              <b>Tecnotics</b> es más que una empresa de tecnología; somos su
-              socio estratégico en la era digital. Con una década de experiencia
-              en la industria y un equipo multidisciplinario de expertos, hemos
-              asumido la misión de impulsar la excelencia técnica, manteniendo
-              un enfoque inquebrantable en la calidad y en el servicio al
-              cliente.
+              Somos una institución prestadora de servicios de salud
+              especializada en enfermedades hematológicas y oncológicas,
+              enfocada en la atención humanizada e integral, comprometida con la
+              seguridad del paciente, contribuyendo así al mejoramiento de la
+              calidad de vida
             </p>
+            <br />
+            <Typography variant="h4">
+              <b>Visíon </b>
+            </Typography>
             <p>
-              Con años de experiencia en el mercado, nuestro equipo de expertos
-              en seguridad cibernética está dedicado a desarrollar y ofrecer las
-              mejores soluciones para proteger la información crítica de su
-              organización.
+              En el año 2025, seremos una institución reconocida a nivel
+              nacional en el cuidado, tratamiento e investigación de
+              enfermedades hematológicas y oncológicas, apoyado en nuestros
+              valores corporativos y política de calidad.
             </p>
             <br />
             <MoreInfoButton />
