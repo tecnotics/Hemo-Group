@@ -3,6 +3,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './Swiper.css'
 import { Pagination, Autoplay, Navigation } from 'swiper/modules';
+import BannerOne from '../../assets/Imagenes/banner1.jpeg'
+import BannerTwo from '../../assets/Imagenes/banner2.jpeg'
+import BannerThree from '../../assets/Imagenes/banner3.jpeg'
+import BannerFour from '../../assets/Imagenes/banner4.jpeg'
 
 
 export const SliderSwiper = () => {
@@ -22,15 +26,10 @@ export const SliderSwiper = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <SwiperSlide><img src={BannerOne} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={BannerTwo} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={BannerThree} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={BannerFour} alt="" /></SwiperSlide>
             </Swiper>
         </>
     );
