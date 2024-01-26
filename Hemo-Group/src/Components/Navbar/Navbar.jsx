@@ -13,6 +13,9 @@ export default function Navbar() {
 
   return (
     <div className="bottom-nav">
+      <div className="contenedor-logos">
+        <img className="logo1" src={logoSolo} alt="Apps for the world Logo" />
+      </div>
       <div className="menu-list">
         <>
           <div className="menu">
@@ -38,13 +41,6 @@ export default function Navbar() {
               <i className="ri-handbag-line"></i>
               <p className="li-mobile-p">Directorio Medico</p>
             </NavLink>
-          </div>
-          <div className="contenedor-logos">
-            <img
-              className="logo1"
-              src={logoSolo}
-              alt="Apps for the world Logo"
-            />
           </div>
           <div className="menu">
             <div className="frame">
