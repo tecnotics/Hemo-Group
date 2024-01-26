@@ -1,0 +1,23 @@
+.quienes-somos-section {
+  background-color: rgba(255, 255, 255, 0.87);
+  background-size: cover;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.quienes-somos-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quienes-somos-content h4 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.quienes-somos-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}

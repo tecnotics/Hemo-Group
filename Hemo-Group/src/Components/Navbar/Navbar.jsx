@@ -7,8 +7,6 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const navigate = useNavigate();
-  const [showMenu, setShowMenu] = useState(false);
-
   const cerrarSesion = () => {
     navigate(`/`);
   };
