@@ -2,12 +2,14 @@ import { Typography } from "@mui/material";
 import Navbar from "../../Components/Navbar/Navbar";
 import MoreInfoButton from "../../Components/MoreInfo/MoreInfo";
 import "./Home.css"
+import { SliderSwiper } from "../../Components/Swiper/Swiper";
 
 function Home() {
   return (
     <>
       <Navbar />
       <div className="container">
+        <SliderSwiper />
         <section className="quienes-somos-section">
           <div className="quienes-somos-content">
             <Typography variant="h4">
