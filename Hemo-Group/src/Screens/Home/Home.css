@@ -29,7 +29,6 @@
 }
 
 .valores {
-  background-color: #00a5cf64; /* Fondo claro para la sección */
   padding: 20px 0; /* Espaciado superior e inferior */
   text-align: center; /* Alineación central para el texto */
 }
@@ -37,12 +36,6 @@
 .valores .MuiTypography-h4 {
   color: #333; /* Color oscuro para el título */
   margin-bottom: 30px; /* Espaciado debajo del título */
-}
-
-.valores .MuiGrid-container {
-  max-width: 1200px; /* Máximo ancho para el contenedor de la grilla */
-  margin: 0 auto; /* Centrado horizontal */
-  padding: 0 15px; /* Espaciado lateral */
 }
 
 .valores .MuiCard-root {

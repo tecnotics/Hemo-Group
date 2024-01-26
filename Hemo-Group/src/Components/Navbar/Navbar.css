@@ -1,6 +1,7 @@
 .bottom-nav {
   display: flex;
   width: 393px;
+  height: 11%!important;
   padding-top: 41px;
   flex-direction: column;
   justify-content: flex-end;
@@ -17,6 +18,11 @@
 
 .contenedor-logos {
   display: none;
+  width: 100%;
+}
+
+.logo1{
+  width: 100%;
 }
 
 .li-mobile-p {
