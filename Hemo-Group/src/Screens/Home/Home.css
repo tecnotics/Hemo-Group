@@ -4,7 +4,6 @@
   margin-top: 110px;
 }
 
-
 .quienes-somos-section {
   background-color: rgba(236, 236, 236, 0.87);
   background-size: cover;
@@ -27,4 +26,51 @@
   font-size: 16px;
   color: #666;
   line-height: 1.6;
+}
+
+.valores {
+  background-color: #00a5cf64; /* Fondo claro para la sección */
+  padding: 20px 0; /* Espaciado superior e inferior */
+  text-align: center; /* Alineación central para el texto */
+}
+
+.valores .MuiTypography-h4 {
+  color: #333; /* Color oscuro para el título */
+  margin-bottom: 30px; /* Espaciado debajo del título */
+}
+
+.valores .MuiGrid-container {
+  max-width: 1200px; /* Máximo ancho para el contenedor de la grilla */
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 0 15px; /* Espaciado lateral */
+}
+
+.valores .MuiCard-root {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para las tarjetas */
+  border-radius: 10px; /* Bordes redondeados */
+  transition: transform 0.3s ease; /* Transición suave para efecto hover */
+}
+
+.valores .MuiCard-root:hover {
+  transform: translateY(-5px); /* Elevación ligera al pasar el mouse */
+}
+
+.valores .MuiCardMedia-root {
+  border-top-left-radius: 10px; /* Bordes redondeados para la parte superior izquierda de la imagen */
+  border-top-right-radius: 10px; /* Bordes redondeados para la parte superior derecha de la imagen */
+}
+
+.valores .MuiCardContent-root {
+  padding: 20px; /* Espaciado interno para el contenido de la tarjeta */
+}
+
+.valores .MuiTypography-body2 {
+  color: #666; /* Color suave para el texto secundario */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .valores .MuiGrid-grid-xs-12 {
+    padding: 0 10px; /* Espaciado lateral en dispositivos móviles */
+  }
 }
