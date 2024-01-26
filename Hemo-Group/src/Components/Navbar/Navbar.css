@@ -1,0 +1,126 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0 0 3px rgb(169, 169, 169);
+    background-color: white;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoContainer > img{
+    width: 90px;
+}
+
+.logoContainer > img:nth-child(2){
+    margin-top: 18px;
+    width: 200px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-li{
+    list-style: none;
+    padding: 6px;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.header-li > a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 466px) {
+    .logoContainer > img:nth-child(2){
+        display: none;
+    }
+}
+
+.cerrarSesion{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Añade este código al final de tu archivo CSS */
+
+@media screen and (max-width: 576px) {
+    .burger-menu {
+        font-size: 32px;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 0 3px rgb(169, 169, 169);
+    }
+
+    .nav.show-menu {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .header-li {
+        width: 97%;
+        text-align: center;
+        padding: 10px;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .CarritoBtn{
+        width: 97%;
+        padding: 10px;
+        height: auto;
+    }
+}
+
+.LogosEmpresaContainers{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reciboLogo{
+    width: 60px;
+}
+
+.localLogo{
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 577px) {
+    .burger-menu {
+        display: none;
+    }
+}
